@@ -12,6 +12,7 @@ h2 {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: rgb(95, 94, 94);
 }
 
 .aboutme-Text-1, .aboutme-Text-2 {
@@ -20,16 +21,20 @@ body {
 }
 
 .navbar-brand {
-    color: rgb(233, 8, 8);
     font-family: 'Roboto Slab', serif;
     background-color: teal;
+    color: white;
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 500;
     margin-left: 10%;
     padding: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
     background-color: lightgrey;
     color: white;
     border-bottom: 2px solid lightgrey;
@@ -51,10 +56,14 @@ footer {
     text-align: center;
     justify-content: center;
     border-top: 3px solid teal color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #navbarSupportedContent {
     padding-left: 65%;
     margin: 2%;
+}
+button {
+    background-color: teal;
+
 }
