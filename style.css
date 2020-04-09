@@ -1,57 +1,60 @@
-html{
+html {
     font-size: 16px;
 }
 
 h2 {
-    font-family: 'Inria Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     width: 100%;
-    border-bottom:3px solid teal;
-    }
+    border-bottom: 2px solid lightgray;
+    color: teal
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-    }
-.aboutme-Text-1 {
-   font-family: 'Muli', sans-serif;
-   padding-top: 3%;
-   margin-top: 3%;
+    font-weight: 300;
 }
+
+.aboutme-Text-1, .aboutme-Text-2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+}
+
 .navbar-brand {
+    color: rgb(233, 8, 8);
+    font-family: 'Roboto Slab', serif;
     background-color: teal;
-    color: white;
     font-size: x-large;
-    font-weight: bold;
+    font-weight: 700;
     margin-left: 10%;
     padding: 10%;
-    margin-bottom:0;
-    padding-bottom: 0;
 }
+
 nav {
-    display:flex;
-    justify-content: space-between;
     background-color: lightgrey;
     color: white;
+    border-bottom: 2px solid lightgrey;
 }
+
 .container {
     padding-top: 5%;
     margin-top: 5%;
-    background-color: khaki;
-
+    background-color: white;
+    border:1px solid lightgray;
 }
+
 footer {
     width: 100%;
     height: 5%;
     position: fixed;
-    bottom:0;
-    background-color:grey ;
+    bottom: 0;
+    background-color: grey;
     text-align: center;
-    justify-content:center;
-    border-top:3px solid teal
-    color: white;
-    font-size: 1.5rem;
-        
+    justify-content: center;
+    border-top: 3px solid teal color: white;
+    font-size: 1rem;
 }
+
 #navbarSupportedContent {
     padding-left: 65%;
-    margin:2%;
+    margin: 2%;
 }
