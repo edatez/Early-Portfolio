@@ -26,15 +26,23 @@ body {
     color: white;
     font-size: x-large;
     font-weight: 500;
-    margin-left: 10%;
+    /* margin-left: 10%;
     padding: 10%;
+    padding-top:0;
+    margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 0; */
+}
+#myname{
+    color: white;
+    padding: 0 10 0 20;
+    margin: 0 10 0 10;
+    line-height: 2.2rem;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     background-color: lightgrey;
     color: white;
     border-bottom: 2px solid lightgrey;
@@ -55,7 +63,8 @@ footer {
     background-color: grey;
     text-align: center;
     justify-content: center;
-    border-top: 3px solid teal color: white;
+    border-top: 3px solid teal;
+    color: white;
     font-size: 1.5rem;
 }
 
@@ -65,5 +74,19 @@ footer {
 }
 button {
     background-color: teal;
+
+}
+.img-fluid{
+    max-width: 100% !important;
+    height: auto;
+    padding:3%;
+}
+.projects {
+    text-align: center;
+    background-color: teal;
+    color:white;
+}
+.carousel-caption {
+    width: 90%;
 
 }
