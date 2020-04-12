@@ -1,5 +1,5 @@
 body{
-    background-color: lightgrey;
+    background-color: grey;
 }
 /***Navbar***/
 .navbar{
@@ -47,7 +47,7 @@ body{
 }
 /***Main***/
 main{
-    background-color: #FFF;
+    background-color: #ccc;
 }
 main.container{
     padding-top: 40px;
@@ -77,30 +77,28 @@ h1 {
 }
 p {
     color: gray;
+   
+    
 }
-
-#navbarSupportedContent {
-    padding-left: 65%;
-    margin: 2%;
-}
-
-button {
+/* contact page form submit button */
+.btn-color{
     background-color: teal;
+    color:#fff;
 }
 
-.img-fluid {
-    max-width: 100% !important;
-    height: auto;
-    padding: 3%;
+.portfolio-image{
+    padding: 0px;
+    width: 300px;
 }
 
 .projects {
+    position: relative;
+    bottom: 60px; 
+    background-color: teal; 
+    color: white; 
+    width: 300px; 
+    padding:10px;
     text-align: center;
-    color: white;
-    background-color: teal;
-    padding-left: 0;
-    margin-left: 0;
-    width: 50%;
 }
 
 form {
