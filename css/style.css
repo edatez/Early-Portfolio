@@ -1,0 +1,109 @@
+body{
+    background-color: lightgrey;
+}
+/***Navbar***/
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom:1px solid lightgrey; ;
+}
+.navbar-brand{
+    background-color: teal;
+    padding: 20px 20px;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-nav{
+    justify-content: center;
+}
+.nav-item{
+    border-right: 1px solid #ccc;
+}
+.nav-item:last-child{
+    border-right: none;
+}
+.navbar-nav .nav-link{
+    padding: 0.5rem;
+}
+@media (max-width: 991px){
+    .navbar .container-lg,
+    .navbar-brand{
+        display:block;
+    }
+    .navbar {
+        /***padding:0;***/
+    }
+    .navbar-brand{
+        text-align: center;
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
+    .navbar-nav {
+        text-align: center;
+        flex-direction: row;
+    }
+}
+/***Main***/
+main{
+    background-color: #FFF;
+}
+main.container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content-box{
+    background-color: #fff;
+    padding: 20px;
+}
+/***footer***/
+footer{
+    text-align: center;
+    background-color: gray;
+    border-top: teal 4px solid;
+    padding-bottom: 40px;
+    padding-top:40px ;
+    color: #fff;
+    font-size: 0.8em;
+    
+}
+img {
+    padding:20px;
+}
+h1 {
+    color: teal;
+    margin: 10px;
+}
+p {
+    color: gray;
+}
+
+#navbarSupportedContent {
+    padding-left: 65%;
+    margin: 2%;
+}
+
+button {
+    background-color: teal;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+    padding: 3%;
+}
+
+.projects {
+    text-align: center;
+    color: white;
+    background-color: teal;
+    padding-left: 0;
+    margin-left: 0;
+    width: 50%;
+}
+
+form {
+    padding: 5%;
+    margin: 5%;
+}
