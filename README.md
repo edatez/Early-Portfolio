@@ -1,4 +1,4 @@
 # Portfolio
-* Some sample projects I am working on.
+* Sample portfolio study for later.
 
 * Used bootstrap for CSS framework. 
